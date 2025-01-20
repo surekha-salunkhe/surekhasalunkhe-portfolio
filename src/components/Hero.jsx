@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilepic from "../assets/kevinRushProfile.png";
+import profilepic from "../assets/SurekhaSalunkhe_Profile.png";
 import {motion} from "motion/react";
 
 const container = (delay) => ({
@@ -22,7 +22,7 @@ const Hero = () => {
                         initial="hidden"
                         animate="visible"
                         className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'>
-                        KEVIN RUSH
+                        Surekha Maruti Salunkhe
                     </motion.h1>
                     <motion.span 
                         variants={container(0.5)}
@@ -35,7 +35,7 @@ const Hero = () => {
                         variants={container(1)}
                         initial="hidden"
                         animate="visible"
-                        className="my-2 max-w-xl py-6 font-light tracking-tighter"> 
+                        className="my-2 max-w-xl py-6 font-light tracking-tighter text-justify"> 
                         {HERO_CONTENT}
                     </motion.p>
                 </div>
