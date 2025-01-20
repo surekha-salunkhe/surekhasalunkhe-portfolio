@@ -39,3 +39,8 @@ Changes to be done:
 8. Exp: add logo of company, ui ux design ideas etc
 9. Project: add image of each project, short desc, github link, on click show more description with whole idea and video if possible
 10. Contact: try to create send email option with node.js and express
+
+git status
+git add .\ or re+tab -> git add .\README.md
+git commit -m "updated readme"
+git push origin main
