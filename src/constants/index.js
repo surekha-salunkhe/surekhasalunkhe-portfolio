@@ -2,6 +2,8 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import rangoli1 from "../assets/gallery/Rangoli1.jpg";
+import rangoli2 from "../assets/gallery/Rangoli2.jpg";
 
 export const HERO_CONTENT = `Hello! I am a passionate computer science enthusiast and have completed my Master from Pace University - Seidenberg School Of Computer Science and Information Systems (September 2022 - May 2024). My academic journey has allowed me to dive deep into Software Development, Mobile and Web Development, Game Programming, AI, and Python. In addition to my technical skills, I have a love for sketching and arts which fuels my creativity and inspires my projects in game and web development.`;
 
@@ -85,6 +87,22 @@ export const PROJECTS = [
   //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   // },
 ];
+
+export const GALLERY_GROUPS = {
+  All: [
+    { image: "image1.jpg", title: "Art 1", description: "Sketch of a tree" },
+    { image: rangoli1, title: "Art 2", description: "Digital painting" },
+    { image: rangoli2, title: "Art 2", description: "Digital painting" },
+  ],
+  Sketches: [
+    { image: "image1.jpg", title: "Art 1", description: "Sketch of a tree" },
+  ],
+  Rangoli: [
+    { image: rangoli1, title: "Art 2", description: "Digital painting" },
+    { image: rangoli2, title: "Art 2", description: "Digital painting" },
+  ],
+};
+
 
 export const CONTACT = {
   address: "2127 John F Kennedy blvd, Jersey City, New Jersey, 07305",
